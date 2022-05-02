@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin-top: 45px;
+	margin-left: 225px;
+	margin-right: 225px;
+}
+header {
+	font-family: "Bebas Neue", sans-serif, arial;
+	display: flex;	
+	margin: 0 5px;
+	justify-content: space-between;
+}	
+.titulo {
+	font-family: Pacifico, sans-serif, arial;
+} 
+nav {
+	margin-top: 5px;
+	
+	 
+		
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: left;
+	
+}
+
+.top_header li{
+	margin-right: auto;
+	color: #D3D3D3;
+	
+}
+
+.bottom_header li{
+	margin-right: 60px;
+	font-size: 32px;
+}
+
+
