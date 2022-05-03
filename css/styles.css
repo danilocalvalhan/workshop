@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Bebas Neue", sans-serif, arial;
 }
 body{
 	margin-top: 45px;
@@ -11,7 +12,6 @@ body{
 	margin-right: 225px;
 }
 header {
-	font-family: "Bebas Neue", sans-serif, arial;
 	display: flex;	
 	margin: 0 5px;
 	justify-content: space-between;
@@ -20,27 +20,60 @@ header {
 	font-family: Pacifico, sans-serif, arial;
 } 
 nav {
-	margin-top: 5px;
-	
-	 
-		
+	margin-top: 5px;		
 }
 ul {
 	list-style-type: none;
 	display: flex;
-	justify-content: left;
-	
+	justify-content: left;	
 }
-
 .top_header li{
 	margin-right: auto;
-	color: #D3D3D3;
-	
+	color: #D3D3D3;	
 }
-
 .bottom_header li{
 	margin-right: 60px;
 	font-size: 32px;
 }
+.slider {
+	padding: 55px 0;	
+}
+.FeaturedWork {
+	display: flex;
+}	
+.FeaturedWork img {
+	width: 100%;	
+}
+.This_Month{
+	background-color: Black;
+	position: absolute; bottom: -72px; left: 225px;
+	width: 240px;
+	height: 80px;
+	text-align: left;
+	padding: 10px 20px;
+}
+.This_Month h3 {
+	color: DimGray;
+}	
+.This_Month h2 {
+	color: white;
+	font-size: 38px;
+}	
+.info {
+	padding: 19px;	
+	background-color: WhiteSmoke; 
+}
+
+.info h2 {
+	padding-bottom: 19px;
+	font-size: 22px;
+}	
+
+.info p {
+	font-size: 14px;
+	margin-right: 60px;
+	color: DimGray;
+}	
+	
 
 
