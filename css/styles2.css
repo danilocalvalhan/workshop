@@ -4,20 +4,20 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Bebas Neue", sans-serif, arial;
+	font-family: 'Bebas Neue', sans-serif, Arial;
 }
 body{
 	margin-top: 45px;
 	margin-left: 225px;
 	margin-right: 225px;
 }
-header {
-	display: flex;	
+header {	
 	margin: 0 5px;
+	display: flex;
 	justify-content: space-between;
 }	
-.titulo {
-	font-family: Pacifico, sans-serif, arial;
+.titulo h1{
+	font-family: 'Pacifico', sans-serif, Arial;
 } 
 nav {
 	margin-top: 5px;		
@@ -39,18 +39,19 @@ ul {
 	padding: 55px 0;	
 }
 .FeaturedWork {
-	display: flex;
+	display: flex; 
+	flex-direction: column;
+	position: relative;	
 }	
 .FeaturedWork img {
 	width: 100%;	
 }
 .This_Month{
 	background-color: Black;
-	position: absolute; bottom: -72px; left: 225px;
 	width: 240px;
 	height: 80px;
-	text-align: left;
 	padding: 10px 20px;
+	position: absolute; bottom: 0px;
 }
 .This_Month h3 {
 	color: DimGray;
