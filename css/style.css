@@ -12,49 +12,66 @@
 	max-width: 940px;
 	margin: 0 auto;	
 }
-
-
+		
 /*===================================
 ========== Header =================*/
 
 header {
 	border-top: 7px solid #ebebeb;
 }	
-
 .Logo_nav {
 	padding-top: 40px;
 	display: flex;
 	justify-content: space-between;
 }
-
 .Logo_nav h1 {
 	font-family: "Pacifico", cursive, sans-serif;
 	font-size: 2rem;
 	color: #474747; 
 	margin-left: 0.4rem; 
 }
-
 .Logo_nav ul {
 	display: flex;
 	list-style: none; 
 }
-
 .Logo_nav ul li {
 	font-family: "Bebas Neue", sans-serif, Arial;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	margin-right: 3.2rem;
 }
-
 .Logo_nav ul li:last-child {
 	margin: 0; 
 }		
-
 .Logo_nav ul li em {
 	font-family: "Bebas Neue", sans-serif, Arial;
 	font-size: 2rem;
 	text-transform: uppercase;
 	color: #474747;
 	display: block;
-}	
-
+}
+@media (max-width: 800px) {
+	.Logo_nav h1 {
+		font-size: 1.5rem;
+		margin-left: 0.3rem;
+	}
+	.Logo_nav ul li{
+		font-size: 1.12rem;
+		margin-right: 2.4rem;
+	}	
+	.Logo_nav ul li em {
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 560px) {
+	header {
+		position: relative;
+	}	
+	.Logo_nav {
+		display: block;
+		position: absolute; left: 30%;
+	}	
+	.Logo_nav ul {
+		display: block;
+	}
+}
