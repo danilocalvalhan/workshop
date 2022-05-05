@@ -12,6 +12,7 @@
 	max-width: 58.75rem;
 	margin: 0 auto;	
 }
+
 		
 /*===================================
 ========== Header =================*/
@@ -51,11 +52,56 @@ header {
 	display: block;
 }
 
+/*===================================
+========= Section Wall ============*/
+
+.Wallpaper {
+	margin-top: 3.125rem;
+	margin-bottom: 3rem;
+	position: relative;
+}	
+.Wallpaper img {
+	width: 100%;
+	height: 26.25rem;
+}	
+.Wallpaper .Featured_Box {
+	background: #404040;
+	width: 25%;
+	position: absolute; bottom: 8.5em;
+	padding: 0.5rem 1.5rem 0 1.8rem;
+
+}
+.Wallpaper .Featured_Box h2 {
+	font-family: "Bebas Neue", sans-serif, Arial;
+	font-size: 1.7rem;
+	color: #9e9e9e;
+}
+.Wallpaper .Featured_Box h1 {
+	font-family: "Bebas Neue", sans-serif, Arial;
+	font-size: 2.2rem;
+	color: #ffffff;
+}
+.Wallpaper .Content {
+	background: #f8f8f8;
+	padding: 1rem;
+}
+.Wallpaper .Content h2 {
+	font-family: "Bebas Neue", sans-serif, Arial;
+	font-size: 1.5rem;
+	color: #474747;
+}	
+.Wallpaper .Content p {
+	color: #9a9a9a;
+	font-size: 1.1rem;
+	margin: 0.9rem 1.5rem 0.9rem 0;
+}
+
+
 /*============================================
 ============ Footer ========================*/
 
 footer {
-	position: fixed; bottom: 0;
+	position: relative; bottom: 0;
 	height: 4.375rem;
 	width: 100%;
 	background: #f8f8f8;
@@ -75,6 +121,10 @@ footer {
 .Copyright em {
 	color: #6f6f6f;
 }
+
+
+/*====================================
+========= Media Querry =============*/
 
 @media (max-width: 960px) {
 	* {
