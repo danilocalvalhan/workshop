@@ -102,7 +102,7 @@ header {
 ============= Articles ====================*/
 
 .About {
-	margin-top: 4.375rem;
+	margin-top: 3.75rem;
 	display: flex;
 }
 .About .About_articles {
@@ -111,15 +111,16 @@ header {
 }
 .About .About_articles img{
 	width: 2.5rem;
-	height: 2.5rem;
+	height: 2.5rem; 
+	float: left;
 }
 .About .About_articles h1{
 	font-family: "Bebas Neue", sans-serif, Arial;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	color: #474747;
-	display: inline;
-	margin-left: 1rem;	
+	margin: 1rem;	
+	text-align: center;
 }
 .About .About_articles p{
 	color: #9a9a9a;
@@ -130,8 +131,64 @@ header {
 .About .About_articles h2{
 	font-family: "Bebas Neue", sans-serif, Arial;
 	text-transform: uppercase;
+	white-space: pre;
 	color: #474747;
 }
+
+/*============================================
+=============== Articles Port ==============*/
+
+.Portfolio {
+	margin-top: 4.375rem;
+}
+.Portfolio .My_Latest_Work {
+	display: flex;
+	justify-content: space-between;
+
+}
+.Portfolio .My_Latest_Work .black_box{
+	background: black;
+	height: 1.75rem;
+	width: 24rem;
+}
+.Portfolio .My_Latest_Work h1 {
+	font-family: "Bebas Neue", sans-serif, Arial;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: #474747;
+}
+.Portfolio .Portfolio_container {
+	display: flex;
+	margin-top: 3.4rem;
+}	
+.Portfolio .About_articles{
+	padding: 0.6rem;
+}
+.Portfolio .About_articles img {
+	height: 7.5rem;
+	width: 13.75rem;
+}
+.Portfolio .About_articles h3 {
+	font-family: "Bebas Neue", sans-serif, Arial;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	color: #474747;
+	margin-top: 1rem;
+}
+.Portfolio .About_articles p {
+	color: #9a9a9a;
+	text-align: justify;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.Portfolio .About_articles h4 {
+	font-family: "Bebas Neue", sans-serif, Arial;
+	text-transform: uppercase;
+	white-space: pre;
+	color: #474747;
+	margin-bottom: 4rem;
+}
+
 /*============================================
 ============ Footer ========================*/
 
